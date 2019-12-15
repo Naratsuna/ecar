@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:id="@+id/group_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_of_tolls"
+        android:background="@drawable/white_bg"
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+        android:id="@+id/groupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更换配件"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlack"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_expand"
+            android:layout_width="@dimen/size_of_checkbox_father"
+            android:layout_height="@dimen/size_of_checkbox_father"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/checkbox_item_style"
+            android:button="@null"
+            android:checked="false"
+            android:visibility="visible"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_child_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/group_layout"/>
+
+</RelativeLayout>

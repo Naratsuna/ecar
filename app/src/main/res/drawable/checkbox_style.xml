@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--需要两个的drawable都设置图片，不能设置@null，会导致只显示@null-->
+    <item android:state_checked="true" android:drawable="@drawable/ic_checked" />
+    <item android:state_checked="false" android:drawable="@drawable/ic_unchecked"/>
+</selector>

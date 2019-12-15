@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">快捷服务</string>
+    <!--各个签名活动所需的请求名-->
+    <string name="task1">到达救援地</string>
+    <string name="task2">支付</string>
+    <string name="task3">到达任务地</string>
+
+    <string name="tips1">技师是否已到达救援地</string>
+    <string name="tips2">车主是否已付金额为：</string>
+    <string name="tips3">技师是否已到达目的地</string>
+    <!--登录和首页-->
+    <string name="login_title">浙江快捷服务</string>
+    <string name="login_error">请输入用户名和密码</string>
+    <string name="default_user_name">用户名</string>
+    <string name="user_name">吹雪</string>
+    <string name="total_order">订单总数</string>
+    <string name="wait_for_confirm">待确认数</string>
+    <string name="finished">已完成数</string>
+    <string name="padding_order">待接订单</string>
+    <string name="foot">已经到底</string>
+    <string name="num_total_order">0</string>
+    <string name="num_wait_for_confirm">0</string>
+
+    <string name="num_finished">0</string>
+    <!--订单内容信息-->
+    <string name="detail_for_order">订单详情</string>
+    <string name="car_type">拖车</string>
+    <string name="state_of_car_inf">调度状态：</string>
+    <string name="state_of_car_wait">等待技师接单</string>
+    <string name="state_of_car_go_task">技师正在前往任务地</string>
+    <string name="state_of_car_arrive_task">技师已到达任务地</string>
+    <string name="countdown">倒计时：5:00</string>
+    <string name="time_countdown">5:00</string>
+    <string name="task_place">任务地</string>
+    <string name="destination">目的地</string>
+    <string name="order_time">下单时间</string>
+    <!--底部菜单-->
+    <string name="homepage">首页</string>
+    <string name="navigation">历史订单</string>
+    <string name="me">我的</string>
+
+    <!--过程-->
+    <string name="gotask">前往救援地</string>
+    <string name="btn_navigate_start">开始导航</string>
+    <string name="btn_navigate_stop">结束导航</string>
+    <string name="gps_enabled_false">GPS开关未打开，可能会影响定位结果！</string>
+    <!--checkbox_right_first,second....-->
+    <string name="cb_r_f">更换线路</string>
+    <string name="cb_r_s">显示交通情况</string>
+    <string name="cb_r_t">语音播报</string>
+    <!--checkbox_left_first,second....-->
+    <string name="cb_l_f">联系车主</string>
+    <string name="cb_l_s">联系接车人</string>
+    <string name="cb_l_t">联系客服</string>
+    <string name="arrived_confirm">技师是否已到达目的地</string>
+    <string name="sign_confirm">签名代表您确认无误，签完字以后请点击右上角√</string>
+    <!--照片上传-->
+    <string name="add_photo">添加照片</string>
+    <string name="photo">照片</string>
+    <string name="save">保存图片</string>
+    <string name="delete">删除图片</string>
+    <string name="tolls_hint">在此填写费用</string>
+    <string name="submit">提交</string>
+    <string name="skip">无，跳过</string>
+    <string name="no_pic_for_save">当前无照片可保存！</string>
+    <string name="file_delete_success">照片已删除！</string>
+
+    <!--付款-->
+    <string name="pay_use_zfb">支付宝支付</string>
+    <string name="pay_use_wx">微信支付</string>
+    <string name="change_use_zfb">切换至支付宝支付</string>
+    <string name="change_use_wx">切换至微信支付</string>
+    <string name="pay_finish">已付款</string>
+    <string name="pay_num">付款金额</string>
+
+    <!--Toast-->
+    <!--配件列表Adapter-->
+    <string name="cannot_reduce">当前数量为0，不可再减了。</string>
+</resources>

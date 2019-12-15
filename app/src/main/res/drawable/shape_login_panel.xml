@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <corners android:radius="21px"/>
+    <solid android:color="@color/login_panel"/>
+</shape>
+<!-- https://blog.csdn.net/harvic880925/article/details/41850723#-->

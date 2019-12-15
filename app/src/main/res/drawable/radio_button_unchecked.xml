@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:width="23dp" android:height="23dp"/>
+    <corners android:radius="360dip"/>
+    <solid android:color="@color/radio_button_unchecked"/>
+</shape>

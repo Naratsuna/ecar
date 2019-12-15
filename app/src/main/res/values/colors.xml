@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <!--主要灰色背景-->
+    <color name="colorMainGray">#FFF6F6F6</color>
+    <!--主要蓝色-->
+    <color name="colorBlue">#17AEF8</color>
+    <!--微信绿-->
+    <color name="wx_green">#FF12BA4E</color>
+    <!--渐变蓝色-->
+    <color name="colorBlueDeep">#FF3E90ED</color>
+    <!--黑色-->
+    <color name="colorBlack">#444444</color>
+    <!--次级黑色-->
+    <color name="colorSmallBlack">#666666</color>
+    <!--提示文字的灰色-->
+    <color name="colorGrayHint">#C5C5C5</color>
+    <!--文字输入框下的灰色线条-->
+    <color name="colorGrayLine">#FFE0E0E0</color>
+    <!--底部tab栏图标未使用的颜色-->
+    <color name="colorIconUnused">#FF7B7B7B</color>
+    <!--底部tab栏图标已使用的颜色-->
+    <color name="colorIconUsed">#17AEF8</color>
+    <!--提示的红色-->
+    <color name="colorRed">#FFFF3939</color>
+    <!--登录面板的背景色-->
+    <color name="login_panel">#FFF0F0F0</color>
+    <!--步骤按钮-->
+    <color name="radio_button_unchecked">#FF5DC6FA</color>
+    <color name="radio_button_checked">#FFFFFFFF</color>
+    <!--添加照片文字-->
+    <color name="add_photo">#FF979797</color>
+    <color name="photo_btn_bg">#FFF1F1F1</color>
+    <!--拒绝订单返回按钮-->
+    <color name="btn_back_order">#FFF98F3B</color>
+</resources>

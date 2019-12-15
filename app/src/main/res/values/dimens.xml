@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题距离顶部高度-->
+    <dimen name="title_margin_top">25dp</dimen>
+    <!--上面有覆盖图层的标题栏-->
+    <dimen name="header_have_layer">180dp</dimen>
+    <!--有头像的标题栏-->
+    <dimen name="header_with_avatar">200dp</dimen>
+    <!--无覆盖的标题栏-->
+    <dimen name="header_only_title">80dp</dimen>
+    <!--距离两侧和底部的距离-->
+    <dimen name="margin_horizon">20dp</dimen>
+    <!--距离两侧和底部的距离-->
+    <dimen name="margin_of_tolls">15dp</dimen>
+    <dimen name="margin_bottom">20dp</dimen>
+    <!--标题文字-->
+    <dimen name="text_title">20sp</dimen>
+    <!--开始救援按钮字体-->
+    <dimen name="text_navigate">18sp</dimen>
+    <!--check内部间距-->
+    <dimen name="space_inside_checkbox">13dp</dimen>
+    <!--配件列表中checkbox的大小-->
+    <dimen name="size_of_checkbox_father">10dp</dimen>
+    <!--配件列表中次级菜单的按钮大小-->
+    <dimen name="size_of_btn_add_reduce">30dp</dimen>
+    <!--配件列表中次级菜单的加减图标大小-->
+    <dimen name="size_of_ic_add_reduce">10dp</dimen>
+    <!--checkbox按钮组的宽度-->
+    <dimen name="checkbox_width">180dp</dimen>
+    <!--距离垂直中间线的距离-->
+    <dimen name="space_to_center_vertical">10dp</dimen>
+    <!--阴影大小-->
+    <dimen name="shadow_size">5dp</dimen>
+    <!--圆角大小-->
+    <dimen name="round_cornen_radius">21px</dimen>
+    <!--缩略照片的大小-->
+    <dimen name="size_pic_small">115dp</dimen>
+    <!--签名界面按钮的大小-->
+    <dimen name="btn_size_of_sign">25dp</dimen>
+    <!--各个按钮之间的间距-->
+    <dimen name="space_of_btn_sign">20dp</dimen>
+    <!--签名界面离上面的距离-->
+    <dimen name="space_title_of_sign">35dp</dimen>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorMainGray"
+    >
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:background="@color/colorBlue"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/title_margin_top"
+        android:gravity="center"
+        android:text="订单详情"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_title"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_group"
+        android:layout_below="@id/textView13"
+        android:layout_marginStart="@dimen/margin_horizon"
+        android:layout_marginTop="@dimen/margin_of_tolls"
+        android:layout_marginEnd="@dimen/margin_horizon"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/white_bg"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="倒计时：5:00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/textView12"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.5"
+            android:background="@drawable/line_gap" />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/margin_horizon"
+        android:layout_marginEnd="@dimen/margin_horizon"
+        android:layout_marginBottom="10dp">
+
+        <Button
+        android:id="@+id/btn_refuse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_red_px21"
+        android:text="拒绝此单"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_blue_px21"
+            android:text="确认接单"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <com.example.Util.SignatureView
+        android:id="@+id/sv_sign_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_sign_tip1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arrived_confirm"
+        android:textSize="19.5sp"
+        android:textColor="@color/colorSmallBlack"
+        android:layout_marginTop="@dimen/space_title_of_sign"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_sign_tip2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/sign_confirm"
+        android:alpha="0.3"
+        android:textSize="25sp"
+        android:textColor="@color/colorGrayHint"
+        />
+
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/space_title_of_sign"
+        android:layout_marginEnd="@dimen/margin_horizon">
+
+        <Button
+            android:id="@+id/btn_redo"
+            android:layout_width="@dimen/btn_size_of_sign"
+            android:layout_height="@dimen/btn_size_of_sign"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_redo"
+            android:rotation="-90" />
+
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="@dimen/btn_size_of_sign"
+            android:layout_height="@dimen/btn_size_of_sign"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_exit" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="@dimen/btn_size_of_sign"
+            android:layout_height="@dimen/btn_size_of_sign"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_right"
+            android:rotation="270" />
+    </RelativeLayout>
+
+
+</FrameLayout>
